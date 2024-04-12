@@ -2,9 +2,9 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-def index(request):
+def home(request):
 
-    return render(request,"index.html")
+    return render(request,'home.html')
 
 
 def post(request):
